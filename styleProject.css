@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3a5; /* Tan background */
+    color: #333; /* Dark gray text */
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 100px; /* Adjust width as needed */
+}
+
+/* Menu styles */
+.menu {
+    background-color: #8B0000; /* Dark red */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the viewport */
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-top: 2px solid #fff; /* White top border */
+    border-bottom: 2px solid #fff; /* White bottom border */
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff; /* White text */
+}
+
+/* Title styles */
+h1 {
+    text-align: center;
+    margin-top: 40px; /* Space below menu */
+}
+
+/* Paragraph styles */
+p {
+    margin-left: 20px; /* Space for menu and image */
+}
+
+/* Content styles */
+.content {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+/* Image styles */
+.content img {
+    width: 500px; /* Adjust size as needed */
+    height: auto;
+    margin-left: auto;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #8B0000; /* Dark red */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #fff; /* White top border */
+    border-bottom: 2px solid #fff; /* White bottom border */
+}
