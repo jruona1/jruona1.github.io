@@ -1,0 +1,117 @@
+<!DOCTYPE HTML> 
+<html>
+<head> 
+    <title>The Finish Line</title>
+    <link rel="stylesheet" href="styleProject.css"/>
+</head> 
+<body>
+    <input class="menu-chkbx" type="checkbox" id="menu-chkbx"/> 
+    <label class="menu-burger" for="menu-chkbx"> 
+        <span class="hamburger"></span>
+    </label>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sprintPage.html">Sprints</a></li>
+            <li><a href="jumpPage.html">Jumps</a></li>
+            <li><a href="throwPage.html">Throws</a></li>
+        </ul>
+    </nav>
+
+    <h1>Bell Lap</h1> 
+    
+    <div class="content">
+        <p>If you're a distance runner, you've found the finish line. This page is your home for weeks of training, aprroved by divison one athletes and coaches alike. The training plan below spans one month, and while you may not see great strides in improvement during this month (such is the nature of our sport), you will notice yourself feeling much stronger and better equipped to handle any race. The training below serves as an introduction to the program for 800/1600 meter runners. Once completed, fill out the form below to get in contact with us so we can send you a personalized training cycle for your next month. At the end of the day, it's all just trials of miles and miles of trials. Happy running! </p>
+        <img src="https://www.trentonian.com/wp-content/uploads/migration/2020/11/7a66f35f86aa9c8872c26b7b1f731d88.jpg?w=640" alt="XC Race">
+    </div>
+
+    <footer class="footer">
+        Created by John Ruona
+    </footer>
+
+    <table>
+        <tr>
+            <th style="width: 14.28%;">Mileage Percentage</th>
+            <th style="width: 14.28%;">Monday</th>
+            <th style="width: 14.28%;">Tuesday</th>
+            <th style="width: 14.28%;">Wednesday</th>
+            <th style="width: 14.28%;">Thursday</th>
+            <th style="width: 14.28%;">Friday</th>
+            <th style="width: 14.28%;">Saturday</th>
+            <th style="width: 14.28%;">Sunday</th>
+        </tr>
+        <tr>
+            <td>Week one: 70% mileage</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Speed endurance (4x200m at race pace)</td>
+            <td>Medium-long distance run</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Interval training (6x800m at 5k race pace)</td>
+            <td>Long run: 60-90 minutes at a comfortable pace</td>
+            <td>Rest day</td>
+        </tr>
+        <tr>
+            <td>Week two: 75% mileage</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Hill repeats (8-10x30s uphill)</td>
+            <td>Medium-long distance run</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Tempo run (3-4 miles at half-marathon race pace)</td>
+            <td>Long run: 60-90 minutes at a comfortable pace</td>
+            <td>Rest day</td>
+        </tr>
+        <tr>
+            <td>Week three: 80% mileage</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Fartlek (30s hard, 60s easy, repeat for 20-30 minutes)</td>
+            <td>Medium-long distance run</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Track repeats (4x1600m at 10k race pace)</td>
+            <td>Long run: 60-90 minutes at a comfortable pace</td>
+            <td>Rest day</td>
+        </tr>
+        <tr>
+            <td>Week four: 85% mileage</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Speed development (6x400m at slightly faster than mile race pace)</td>
+            <td>Medium-long distance run</td>
+            <td>Easy run and strides</td>
+            <td>Workout: Interval training (8x600m at 5k race pace)</td>
+            <td>Long run: 60-90 minutes at a comfortable pace</td>
+            <td>Rest day</td>
+        </tr>
+    </table>
+    
+        
+    </table>
+    <div class="contact-form-container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>Interest:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="interest" value="800"> 800m</label>
+                    <label><input type="checkbox" name="interest" value="1600"> 1600m</label>
+                    <label><input type="checkbox" name="interest" value="3200"> 3200m</label>
+                    <label><input type="checkbox" name="interest" value="5k"> 5k</label>
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+                alert("Thank you for contacting us! We will be in touch shortly!");
+            });
+    </script>
+</body> 
+</html>
