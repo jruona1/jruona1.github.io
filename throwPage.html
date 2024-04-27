@@ -1,0 +1,122 @@
+<!DOCTYPE HTML> 
+<html>
+<head> 
+    <title>The Throwing Cage</title>
+    <link rel="stylesheet" href="styleProject.css"/>
+    <link rel="stylesheet" type="text/css" href="css/my_styles.css" media="screen" /> 
+    <link rel="stylesheet" type="text/css" href="css/full_screen.css" media="screen and (min-width:769px)" />
+    <link rel="stylesheet" type="text/css" href="css/tablet.css" media="screen and (max-width:768px) and (min-width:481px)" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen and (max-width:480px)" />
+</head> 
+<body>
+    <input class="menu-chkbx" type="checkbox" id="menu-chkbx"/> 
+    <label class="menu-burger" for="menu-chkbx"> 
+        <span class="hamburger"></span>
+    </label>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="distancePage.html">Distance</a></li>
+            <li><a href="sprintPage.html">Sprints</a></li>
+            <li><a href="jumpPage.html">Jumps</a></li>
+        </ul>
+    </nav>
+
+    <h1>Throwing Cage</h1> 
+    
+    <div class="content">
+        <p>If you're a thrower, you've found your arena. Welcome to a domain where strength, technique, and precision converge to propel objects through the air with remarkable force. Crafted with insights from seasoned throwers and esteemed coaches, this page serves as your haven for refining your skills and unleashing your full potential.
+
+            The training regimen outlined below spans a month, meticulously crafted to enhance your power, technique, and agility in the throwing events. While the immediate gains may not be instantly noticeable, trust in the process – you'll feel the difference in your throws and distances.
+            
+            This plan caters to throwers focusing on various disciplines like shot put, discus throw, javelin throw, and hammer throw. Each session is tailored to push your limits, refine your technique, and elevate your performance to new heights.
+            
+            Upon completing this month-long journey, feel free to reach out to us using the form below. We'll develop a personalized training cycle for your next month, tailored to your strengths and aspirations.
+            
+            Remember, success in throwing demands dedication, perseverance, and a willingness to push beyond your boundaries. Embrace the grind, conquer the challenges, and witness yourself launch projectiles farther than ever before. It's all about mastering the art of propulsion. Happy throwing! </p>
+        <img src="https://media.nj.com/njsports_impact/photo/jon-fernandez-mount-st-marys-college-javelin-62e80a440e5d7046_large.jpg" alt="Thrower">
+    </div>
+
+    <footer class="footer">
+        Created by John Ruona
+    </footer>
+
+    <table>
+        <tr>
+            <th style="width: 14.28%;">Monday</th>
+            <th style="width: 14.28%;">Tuesday</th>
+            <th style="width: 14.28%;">Wednesday</th>
+            <th style="width: 14.28%;">Thursday</th>
+            <th style="width: 14.28%;">Friday</th>
+            <th style="width: 14.28%;">Saturday</th>
+            <th style="width: 14.28%;">Sunday</th>
+        </tr>
+        <tr>
+            <td>Workout: Strength training (squats, bench press)</td>
+            <td>Workout: Plyometric exercises (medicine ball throws, box jumps)</td>
+            <td>Rest day</td>
+            <td>Technique Day: Footwork drills and form practice (shot put, discus, javelin)<a href="https://www.youtube.com/watch?v=GtaIuLsCdWY" target="_blank">Watch video</a></td>
+            <td>Workout: Core strength and stability exercises (planks, Russian twists)</td>
+            <td>Rest day</td>
+            <td>Rest day</td>
+        </tr>
+        <tr>
+            <td>Workout: Power development (clean and jerk, snatch)</td>
+            <td>Workout: Explosive throws (medicine ball throws, overhead throws)</td>
+            <td>Rest day</td>
+            <td>Technique Day: Video analysis and feedback (shot put, discus, javelin)</td>
+            <td>Workout: Upper body strength training (pull-ups, shoulder presses)</td>
+            <td>Rest day</td>
+            <td>Rest day</td>
+        </tr>
+        <tr>
+            <td>Workout: Speed and agility training (sprint intervals, ladder drills)</td>
+            <td>Workout: Balance and coordination drills (single-leg squats, agility ladder)</td>
+            <td>Rest day</td>
+            <td>Technique Day: Implement-specific drills (shot put glide, discus spin)</td>
+            <td>Workout: Lower body strength training (lunges, deadlifts)</td>
+            <td>Rest day</td>
+            <td>Rest day</td>
+        </tr>
+        <tr>
+            <td>Workout: Endurance training (long distance run, bike ride)</td>
+            <td>Workout: Core stability exercises (medicine ball twists, plank variations)</td>
+            <td>Rest day</td>
+            <td>Technique Day: Full throw practice (shot put, discus, javelin)</td>
+            <td>Workout: Recovery session (yoga, foam rolling)</td>
+            <td>Rest day</td>
+            <td>Rest day</td>
+        </tr>
+    </table>
+    
+    
+    <div class="contact-form-container">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label>Interest:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="interest" value="Shot Put"> Shot Put</label>
+                    <label><input type="checkbox" name="interest" value="Discus"> Discus</label>
+                    <label><input type="checkbox" name="interest" value="Hammer Throw"> Hammer Throw</label>
+                    <label><input type="checkbox" name="interest" value="Javelin"> Javelin</label>
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+                alert("Thank you for contacting us! We will be in touch shortly!");
+            });
+    </script>
+</body> 
+</html>
