@@ -81,4 +81,75 @@ p {
     width: 100%;
     border-top: 2px solid #fff; /* White top border */
     border-bottom: 2px solid #fff; /* White bottom border */
+    margin-top: 20px; /* Added margin-top */
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Added margin-bottom */
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/* CSS for the contact form */
+.contact-form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f3f3a5;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form-container .form-group input[type="text"],
+.contact-form-container .form-group input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form-container .form-group .checkbox-group {
+    margin-top: 10px;
+}
+
+.contact-form-container .form-group .checkbox-group label {
+    margin-right: 10px;
+}
+
+.contact-form-container .submit-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-form-container .submit-btn:hover {
+    background-color: #45a049;
 }
